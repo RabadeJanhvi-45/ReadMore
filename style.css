@@ -1,0 +1,40 @@
+body{
+    font-family:'Montserrat';
+    text-align: justify;
+    max-width: 600px;
+    padding-top: 20px;
+    margin: 0 auto;
+    background-color: rgb(19, 3, 70);
+   border: 1px;
+}
+.container{
+  
+   color: white;
+  
+   box-shadow: 1px 1px 10px 1px rgb(255, 255, 255); ;
+   background-color: rgb(19, 3, 70);
+   padding:  10px 10px 10px ;
+}
+
+.txt{
+    font-size: 24px;
+}
+.moreText{
+    display: none;
+}
+.read-more-btn{
+    padding: 15px 60px;
+    background-color: rgb(152, 185, 214);
+    color: black;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    cursor: pointer;
+
+}
+.text.show-more .moreText{
+    display: inline;
+}
+.text.show-more .dots{
+    display: none;
+}
